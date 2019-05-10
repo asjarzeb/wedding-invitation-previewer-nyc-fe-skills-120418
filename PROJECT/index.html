@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="./index.css" rel="stylesheet">
+    <title>Wedding Invitation Designer</title>
+  </head>
+
+  <body>
+
+    <h1>Wedding Invitation Designer</h1>
+    <hr size="4">
+
+    <div class="flex-container">
+
+
+      <div class="container-left">
+
+
+        <!--BUTTONS-->
+        <div class="buttons">
+
+          <button id="classic">CLASSIC</button>
+
+          <button id="floral">FLORAL</button>
+
+          <button id="whimsical">WHIMSICAL</button>
+        </div>
+        <br>
+        <br>
+      
+
+
+        <!--FORM-->
+        <div id="form">
+        <form action="Wedding-Details.php" method="GET"></form>
+
+        <label for="First Name">First Name</label>
+        <br>
+        <input id="first-name" type="text">
+        <br>
+        <br>
+        <br>
+        <label for="Second Name">Second Name</label>
+        <br>
+        <input id="second-name" type="text">
+        <br>
+        <br>
+        <br>
+        <label for="Last Name">Last Name</label>
+        <br>
+        <input id="last-name" type="text">
+        <br>
+        <br>
+        <br>
+        <label for="Date">Date</label>
+        <br>
+        <input id="wed-date" type="text">
+        <br>
+        <br>
+        <br>
+        <label for="Time">Time</label>
+        <br>
+        <input id="time-ampm" type="text">
+        <br>
+        <br>
+        <br>
+        <label for="Wedding Location">Wedding Location</label>
+        <br>
+        <input id="wed-location" type="text">
+      </div>
+</div>
+
+
+<div class="buttons"> 
+  <button id="clear">CLEAR FIELDS</button>
+  </div>
+
+      <div class="container-right classic" id="container-right">
+
+
+        <!--<div class="classic"></div>-->
+        <!--<div class="floral"></div>-->
+        <!--<div class="whimsical"></div>-->
+
+        <p class="cordially">You are cordially invited to the wedding of</p>
+       
+       <div class="oneline">
+          <div id="first"></div>  &#38;
+          <div id="second"></div>
+      </div>
+      
+          <div id="last"> </div>
+        
+        <p class='dateof'>on the date of</p>    
+          <div id="date"> </div>
+        
+        
+          <div id="time"> </div>
+        
+        <p class='at'>at</p> 
+          <div id="loc"> </div>
+
+
+
+        <script src="./index.js"></script>
+
+
+      </div>
+    </div>
+  </body>
+
+</html>

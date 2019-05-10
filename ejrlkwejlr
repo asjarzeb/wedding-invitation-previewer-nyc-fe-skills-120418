@@ -1,0 +1,5 @@
+.cordially {
+  text-align: center;
+  padding-top: 23%;
+  font-style: italic;
+}
